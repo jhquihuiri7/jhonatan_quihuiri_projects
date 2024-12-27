@@ -1,0 +1,15 @@
+<!-- django_project/templates/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Financials Dashboard Dashboard</title>
+</head>
+<body>
+    {% load plotly_dash %}
+    <div class="{%plotly_class name="google_dashboard"%}">
+        {%plotly_app name="google_dashboard"%}
+    </div>
+</body>
+</html>
